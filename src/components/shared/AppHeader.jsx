@@ -41,6 +41,7 @@ const AppHeader = () => {
 	}
 
 	return (
+		
 		<motion.nav
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
@@ -52,6 +53,7 @@ const AppHeader = () => {
 				<div className="flex justify-between items-center px-4 sm:px-0">
 					<div>
 
+					<Link to={'/'}>
 
 
 						<motion.h1
@@ -66,6 +68,7 @@ const AppHeader = () => {
 						>
 						 Usama Rasheed
 						</motion.h1>
+					</Link>
 
 						{/* <Link to="/">
 							{activeTheme === 'dark' ? (
